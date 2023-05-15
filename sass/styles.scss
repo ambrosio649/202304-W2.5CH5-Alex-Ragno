@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serifs;
+}
+
+main {
+  display: grid;
+  justify-items: center;
+  align-content: space-around;
+  height: 70%;
+}
+
+.table {
+  border-spacing: 0;
+  border-collapse: 0;
+  border: 1px solid black;
+}
+
+.table:hover {
+  cursor: pointer;
+}
+
+td {
+  border: 1px solid #eee;
+}
+
+.refresh-button {
+  padding: 10px 15px 10px 15px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.refresh-button:hover {
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+}

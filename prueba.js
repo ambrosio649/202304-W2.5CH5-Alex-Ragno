@@ -1,6 +1,5 @@
-/* eslint-disable @typescript-eslint/indent */
 /* eslint-disable prefer-const */
-
+/* eslint-disable no-unused-vars */
 /* eslint-disable eqeqeq */
 /* eslint-disable no-negated-condition */
 let column = 20;
